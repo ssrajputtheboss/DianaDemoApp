@@ -22,7 +22,7 @@ function App() {
             <TrackYourPeriod />
             <PersonalizedBox />
             <Consult />
-            <div className="centered bg">
+            <div className="centered bg__main">
                 <h1 className="font__reptile">
                     With Diana, you’re in control of your health, your every
                     day, and your story.

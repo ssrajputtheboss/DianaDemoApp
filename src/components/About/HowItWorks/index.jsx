@@ -23,7 +23,7 @@ export function HowItWorks() {
             {info.map((step, index) => (
                 <div>
                     <img className="image" src={step.img} alt="Can't load" />
-                    <p className="margin__10--x font__dmsans">{step.details}</p>
+                    <p className="margin__30--y font__dmsans">{step.details}</p>
                 </div>
             ))}
         </div>
