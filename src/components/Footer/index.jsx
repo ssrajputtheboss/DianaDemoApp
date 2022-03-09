@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <footer className="flex flex--column">
+        <footer className="flex flex--column bg">
             <div style={{ float: 'right' }}>
                 <img
                     className="icon"
