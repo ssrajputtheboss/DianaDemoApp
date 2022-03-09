@@ -1,4 +1,5 @@
 import './App.scss';
+import './index.scss';
 import {
     About,
     Consult,
@@ -20,10 +21,10 @@ function App() {
             <ShopSelfCareProducts />
             <TrackYourMood />
             <TrackYourPeriod />
-            <PersonalizedBox />
             <Consult />
-            <div className="centered bg__main">
-                <h1 className="font__reptile">
+            <PersonalizedBox />
+            <div className="centered bg__main" style={{ height: '50vh' }}>
+                <h1 className="font__reptile margin__20--x">
                     With Diana, you’re in control of your health, your every
                     day, and your story.
                 </h1>

@@ -38,6 +38,16 @@ all reusable styles goes here
     margin-bottom: 30px;
 }
 
+.margin__10--x {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin__20--x {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .margin__40--y {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -111,15 +121,35 @@ all reusable styles goes here
 }
 
 .brand__button {
-    padding: 10px;
+    padding: 20px;
     font-family: Poppins;
+    font-size: large;
     font-weight: 600;
     border-radius: 70px;
-    width: 100%;
+    width: 95%;
     float: center;
+    color: #ffffff;
     .font__20 {
         font-size: 20px;
     }
+}
+
+.brand--blue {
+    background: linear-gradient(
+        288.62deg,
+        #6e8cf6 42.36%,
+        rgba(110, 213, 246, 0.93) 115.74%
+    );
+    box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+}
+
+.brand--red {
+    background: linear-gradient(
+        297.28deg,
+        #f66e6e 67.01%,
+        rgba(246, 110, 110, 0) 123.71%
+    );
+    filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
 }
 
 .button__ghost {

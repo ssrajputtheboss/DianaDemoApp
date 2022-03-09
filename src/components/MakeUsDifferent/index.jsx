@@ -2,11 +2,11 @@ import './index.scss';
 import '../../index.scss';
 export function MakeUsDifferent() {
     return (
-        <div className="padding__10 bg">
-            <h2 className="font__poppins bold blue">
+        <div className="padding__30 bg__pink">
+            <h2 className="font__poppins margin__30--y bold blue">
                 What makes us different?
             </h2>
-            <h1 className="font__reptile blue">
+            <h1 className="font__reptile blue margin__30--y">
                 Reimagining and rewiring self-care
             </h1>
             <p className="font__poppins">
