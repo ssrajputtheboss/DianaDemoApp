@@ -1,0 +1,20 @@
+.image {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.details {
+    margin: 10px;
+    font-family: DM Sans;
+    color: #1b1b50;
+}
+
+.bg {
+    background: linear-gradient(
+        180deg,
+        #fff6fb 0%,
+        #e7f6fc 33.33%,
+        rgba(213, 224, 255, 0) 100%
+    );
+}

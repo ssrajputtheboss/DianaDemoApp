@@ -11,3 +11,81 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
+
+/*
+all reusable styles goes here
+*/
+
+.flex {
+    display: flex;
+}
+
+.justify--between {
+    justify-content: space-between;
+}
+
+.common__margin {
+    margin: 10px;
+}
+
+.icon__square {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.align--center {
+    align-items: center;
+}
+
+.flex--column {
+    flex-direction: column;
+}
+
+.justify--center {
+    justify-content: center;
+}
+
+.width__100 {
+    width: 100%;
+}
+
+.font__reptile {
+    font-family: Reptile;
+}
+
+.font__quicksand {
+    font-family: Quicksand;
+}
+
+.font__poppins {
+    font-family: Poppins;
+}
+
+.font__dmsans {
+    font-family: DM Sans;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.text--center {
+    text-align: center;
+}
+
+.padding__10 {
+    padding: 10px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.blue {
+    color: '#1B1B50';
+}
