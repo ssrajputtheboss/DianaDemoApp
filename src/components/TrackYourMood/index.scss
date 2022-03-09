@@ -1,0 +1,10 @@
+.grid__2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.image--height {
+    height: 200px;
+}
