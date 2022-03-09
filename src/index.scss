@@ -16,13 +16,41 @@ code {
 all reusable styles goes here
 */
 
+// flex related styles
+
 .flex {
     display: flex;
 }
 
+.flex--column {
+    flex-direction: column;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// justify & alignment
+
 .justify--between {
     justify-content: space-between;
 }
+
+.align--center {
+    align-items: center;
+}
+
+.justify--center {
+    justify-content: center;
+}
+
+.alignself--center {
+    align-self: center;
+}
+
+//margin & padding
 
 .margin__10 {
     margin: 10px;
@@ -57,27 +85,25 @@ all reusable styles goes here
     padding: 30px;
 }
 
+.padding__10 {
+    padding: 10px;
+}
+
+// for icon buttons
+
 .icon__square {
     width: 30px;
     height: 30px;
     margin: 5px;
 }
 
-.align--center {
-    align-items: center;
-}
-
-.flex--column {
-    flex-direction: column;
-}
-
-.justify--center {
-    justify-content: center;
-}
+// width & height
 
 .width__100 {
     width: 100%;
 }
+
+// fonts & related properties
 
 .font__reptile {
     font-family: Reptile;
@@ -107,18 +133,19 @@ all reusable styles goes here
     text-align: center;
 }
 
-.padding__10 {
-    padding: 10px;
-}
-
+// box shadow
 .shadow {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(213, 224, 255, 0) 0px 30px 60px -30px;
 }
 
+// text color for brand brand--color will be a more suitable name
+
 .blue {
     color: #1b1b50;
 }
+
+// brand button & other button styles
 
 .brand__button {
     padding: 20px;
@@ -159,15 +186,7 @@ all reusable styles goes here
     outline: none;
 }
 
-.alignself--center {
-    align-self: center;
-}
-
-.centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+// divider
 
 .divider {
     margin-left: 15px;

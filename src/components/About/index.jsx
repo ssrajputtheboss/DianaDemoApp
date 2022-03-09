@@ -1,6 +1,9 @@
 import './index.scss';
 import '../../index.scss';
 import { HowItWorks } from './HowItWorks';
+
+/// About section of page
+
 export function About() {
     return (
         <div className="bg__about text--center padding__30">

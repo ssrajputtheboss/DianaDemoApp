@@ -1,3 +1,7 @@
+import '../../index.scss';
+
+/// Track Your Period section
+
 export function TrackYourPeriod() {
     return (
         <div

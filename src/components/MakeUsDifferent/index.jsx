@@ -1,5 +1,8 @@
 import './index.scss';
 import '../../index.scss';
+
+/// What Makes Us Different section
+
 export function MakeUsDifferent() {
     return (
         <div className="padding__30 bg__pink">

@@ -1,4 +1,7 @@
 import '../../index.scss';
+
+/// Shop Our Self Care Products section
+
 export function ShopSelfCareProducts() {
     return (
         <div

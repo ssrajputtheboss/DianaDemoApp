@@ -1,5 +1,8 @@
 import '../../index.scss';
 import './index.scss';
+
+/// Track Your Mood section
+
 export function TrackYourMood() {
     return (
         <div className="padding__10 bg__lightpink">

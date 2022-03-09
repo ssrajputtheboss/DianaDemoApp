@@ -1,5 +1,8 @@
 import '../../index.scss';
 import './index.scss';
+
+/// Get Your Personalized Box section
+
 export function PersonalizedBox() {
     return (
         <div

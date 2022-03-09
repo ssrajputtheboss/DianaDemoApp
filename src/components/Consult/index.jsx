@@ -1,4 +1,7 @@
 import '../../index.scss';
+
+/// Consult section
+
 export function Consult() {
     return (
         <div

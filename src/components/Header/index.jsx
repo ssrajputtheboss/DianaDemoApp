@@ -1,4 +1,7 @@
 import '../../index.scss';
+
+/// Header component
+
 export function Header() {
     return (
         <header className="flex shadow width__100 justify--between padding__10 common__margin align--center">
